@@ -52,7 +52,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r9y-gY-q0E">
-                                <rect key="frame" x="314" y="753.66666666666663" width="64" height="34.333333333333371"/>
+                                <rect key="frame" x="314" y="755.66666666666663" width="64" height="34.333333333333371"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="64" id="zWY-KQ-hBz"/>
                                 </constraints>
@@ -84,6 +84,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="CS5-Le-7IB"/>
                     <connections>
+                        <outlet property="changeFilter" destination="HRh-iP-tMR" id="xA4-p1-yHt"/>
                         <outlet property="imageView" destination="Hyz-Zh-Kir" id="CjX-Xa-Cxz"/>
                         <outlet property="intensity" destination="RM1-gw-JUD" id="nJx-bm-j4X"/>
                     </connections>
